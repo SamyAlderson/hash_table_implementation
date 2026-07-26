@@ -1,25 +1,23 @@
-# ignore .idea and .vscode folders
-.idea
-.vscode
+# .gitignore
 
-# ignore .pyc and __pycache__ files
-*.pyc
-__pycache__/
+# ignore build artifacts
+dist/
+build/
 
-# ignore .gitignore itself
-!.gitignore
+# ignore IDE files
+.idea/
+.vscode/
 
-# ignore any .env files
-.env
-
-# ignore any logs
-logs/
-
-# ignore any node_modules
+# ignore node modules
 node_modules/
 
-# ignore any pycache
-.pycache/
+# ignore pyc files
+*.pyc
 
-# ignore any dist
-dist/
+# ignore coverage reports
+coverage.xml
+coverage.html
+
+# ignore other stuff
+*.log
+*.tmp
