@@ -1,15 +1,25 @@
-__pycache__/
+# ignore .idea and .vscode folders
+.idea
+.vscode
+
+# ignore .pyc and __pycache__ files
 *.pyc
-.pytest_cache/
+__pycache__/
+
+# ignore .gitignore itself
+!.gitignore
+
+# ignore any .env files
 .env
-*.egg-info/
-dist/
-build/
-.venv/
+
+# ignore any logs
+logs/
+
+# ignore any node_modules
 node_modules/
-target/
-bin/
-obj/
-*.o
-*.so
-*.dylib/
+
+# ignore any pycache
+.pycache/
+
+# ignore any dist
+dist/
