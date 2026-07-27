@@ -1,23 +1,28 @@
 # .gitignore
 
+# ignore node_modules
+node_modules/
+
 # ignore build artifacts
 dist/
-build/
 
 # ignore IDE files
 .idea/
 .vscode/
 
-# ignore node modules
-node_modules/
+# ignore database files
+db.sqlite3
+
+# ignore logs
+logs/
 
 # ignore pyc files
 *.pyc
 
 # ignore coverage reports
 coverage.xml
-coverage.html
+.coverage
 
-# ignore other stuff
-*.log
-*.tmp
+# ignore pip cache
+.cache/
+pip-wheel-wheelhouse/
