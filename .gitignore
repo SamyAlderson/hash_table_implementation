@@ -1,28 +1,21 @@
-# .gitignore
-
-# ignore node_modules
+# ignore node_modules and __pycache__ folders
 node_modules/
-
-# ignore build artifacts
-dist/
+__pycache__/
 
 # ignore IDE files
 .idea/
 .vscode/
 
-# ignore database files
-db.sqlite3
+# ignore build artifacts
+build/
+dist/
+
+# ignore git specific files
+.git/
+.gitignore
+
+# ignore python cache
+.cache/
 
 # ignore logs
 logs/
-
-# ignore pyc files
-*.pyc
-
-# ignore coverage reports
-coverage.xml
-.coverage
-
-# ignore pip cache
-.cache/
-pip-wheel-wheelhouse/
