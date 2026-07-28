@@ -1,21 +1,29 @@
-# ignore node_modules and __pycache__ folders
-node_modules/
-__pycache__/
+# .gitignore
+#
+# ignore build artifacts
+build/
+dist/
+*.egg-info
+*.egg
 
 # ignore IDE files
 .idea/
 .vscode/
 
-# ignore build artifacts
-build/
-dist/
+# ignore temp files
+*.pyc
+*.log
+*.tmp
 
-# ignore git specific files
-.git/
-.gitignore
+# ignore node modules
+node_modules/
 
-# ignore python cache
-.cache/
+# ignore coverage files
+coverage.xml
+coverage.html
 
-# ignore logs
-logs/
+# ignore pycache
+__pycache__/
+
+# ignore venv
+venv/
